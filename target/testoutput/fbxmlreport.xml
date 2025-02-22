@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.255" tests="1" skipped="0" failures="1" errors="0" timestamp="2025-02-21T09:48:26.591105100Z">
+<testcase classname="This test for facebook application" name="Perform facebook testing in cucumber - #1.1" time="0.034">
+<failure type="java.lang.NullPointerException" message="Cannot invoke &quot;faceBook.FbLoginPage.fbCred(String, String)&quot; because &quot;this.fbLoginPage&quot; is null">
+<![CDATA[java.lang.NullPointerException: Cannot invoke "faceBook.FbLoginPage.fbCred(String, String)" because "this.fbLoginPage" is null
+	at stepDefinitions.FBLoginStep.user_enter_valid_credentials_as_and(FBLoginStep.java:24)
+	at ✽.user enter valid credentials as "Maniprabu11" and "Maniprabu11@95"(file:///C:/Users/Manikanda%20Prabu/eclipse/DemoCucum/src/main/resources/FaceBookLogin.feature:6)
+]]>
+</failure>
+<system-out><![CDATA[
+Given user launch facebook URL..............................................passed
+Then user enter valid credentials as "Maniprabu11" and "Maniprabu11@95".....failed
+Then click login button.....................................................skipped
+And user navigate to homePage...............................................skipped
+]]></system-out>
+</testcase>
+</testsuite>
